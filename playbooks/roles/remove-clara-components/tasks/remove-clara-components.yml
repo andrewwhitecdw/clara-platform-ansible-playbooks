@@ -38,4 +38,4 @@
     async: 45
     poll: 5
   ignore_errors: yes
-  when: rm_clara_dotfiles=='y'
+  when: remove_clara_dotfiles == 'y'
