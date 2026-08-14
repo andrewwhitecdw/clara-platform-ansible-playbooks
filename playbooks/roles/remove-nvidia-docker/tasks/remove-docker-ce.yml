@@ -35,7 +35,7 @@
     state: absent
   when: 
    - remove_docker=='y'
-   -  "ansible_lsb.release=='18.04'"
+   -  "ansible_lsb.release=='20.04'"
 
 - name: Remove Docker.io package on Focal
   become: yes
