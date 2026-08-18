@@ -37,7 +37,7 @@
 
 - name: Remove Kubernetes Files from Remote Host
   file:
-    path: "tmp/{{item}}"
+    path: "/tmp/{{item}}"
     state: absent
   with_items:
     - kube-flannel-rbac.yml
